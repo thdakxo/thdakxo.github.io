@@ -1,0 +1,55 @@
+<html>
+
+<HEAD>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+</HEAD>
+
+<h0> Click HERE to start ordering </h0>
+
+<body onclick="takingOrder()">
+
+<script>
+    const priceObject = [
+        {size: "small", price: "1 dollar"},
+        {size: "medium", price: "2 dollar"},
+        {size: "large", price: "3 dollar"},
+    ]
+
+    function callback(priceObject){
+        
+    }
+
+    function takingOrder() {
+        var person = window.prompt("Welcome to Beverage Shop! May I have your name please?", "Enter Your Name");
+
+        if (person != null) {
+        var beverage = window.prompt('Hello, ' + person + '! Which drink would you like to order?', "Enter Your Beverage");
+        }
+
+        if (beverage != null & person != null) {
+        var size = window.prompt("What size would you like for your " + beverage + "?", "Small, Medium, or Large");
+        }
+
+        if (size.toLowerCase() === 'small') {
+            var price = '1 dollar';
+        } else if (size.toLowerCase() === 'medium') {
+            var price = '2 dollars';
+        } else if (size.toLowerCase() === 'large') {
+            var price = '3 dollars';
+        } else {
+            var price = '2.5 dollars';
+        } 
+
+        if (beverage != null & person != null & size != null) {
+            alert("Thanks for waiting, " + person + "! Your " + size + " cup of " + beverage + " is ready. It will be " + price + ". Thank you, and come again!")
+        }
+    }
+
+ 
+   
+
+</script>
+</body>
+</html>
+
