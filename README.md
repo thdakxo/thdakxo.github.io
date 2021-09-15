@@ -1,7 +1,8 @@
-# Moving Ball Exercise
+# Moving Ball and Bus Tracker Exercise
    
 ## Description
-This exercise includes three moving balls that changes direction once it hits an invisible space limits
+Moving Ball exercise includes three moving balls that changes direction once it hits an invisible space limits
+Bus Tracker exercise shows bus stops between MIT and Harvard
 
 ## Installation
 There are no installations included. 
