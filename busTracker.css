@@ -1,18 +1,18 @@
 body {
-  top: 150px;
+  top: 200px;
   margin: 0;
   padding: 0;
 }
 #map {
   position: absolute;
-  top: 150px;
+  top: 200px;
   bottom: 0;
   width: 100%;
 }
 
 .map-overlay {
+  top: 200px;
   position: absolute;
-  top: 150px;
   left: 0;
   padding: 10px;
 }
