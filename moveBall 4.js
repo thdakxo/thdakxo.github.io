@@ -1,3 +1,4 @@
+/* This project is licensed through MIT XPRO Web Development certificate course. */
 var velocityx = 4;
 var velocityx2 = 3;
 var velocityx3 = 2;
