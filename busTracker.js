@@ -1,4 +1,5 @@
 // This array contains the coordinates for all bus stops between MIT and Harvard
+/* This project is licensed through MIT XPRO Web Development certificate course. */
 const busStops = [
   [-71.093729, 42.359244],
   [-71.094915, 42.360175],
