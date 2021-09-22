@@ -1,3 +1,4 @@
+/* This project is licensed through MIT XPRO Web Development certificate course. */
 const balls = document.getElementsByClassName('ball');
 document.onmousemove = (event) => {
   const x = (event.clientX * 100) / window.innerWidth + '%';
