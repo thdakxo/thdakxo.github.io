@@ -1,3 +1,4 @@
+/* This project is licensed through MIT XPRO Web Development certificate course. */
 var pos = 0;
 let pageWidth = window.innerWidth;
 const pacArray = [
